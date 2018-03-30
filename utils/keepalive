@@ -1,0 +1,6 @@
+#!/bin/bash
+DOMAIN="naturalaffection.herokuapp.com"
+while :; do
+wget --delete-after  http://$DOMAIN
+sleep 1600
+done  &
