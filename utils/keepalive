@@ -1,6 +1,8 @@
 #!/bin/bash
 DOMAIN="naturalaffection.herokuapp.com"
+DOMAIN1="webjframework.herokuapp.com"
 while :; do
 wget --delete-after  http://$DOMAIN
+wget --delete-after  http://$DOMAIN1
 sleep 1600
 done  &
